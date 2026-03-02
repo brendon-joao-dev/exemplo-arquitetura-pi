@@ -3,7 +3,7 @@
 header("Content-Type: application/json");
 
 // Conecta com banco de dados
-require "../db/conexao.php";
+require_once __DIR__ . "/../db/conexao.php";
 
 // Recebe qualquer requisição que for enviada para cá
 $requisicao = json_decode(file_get_contents("php://input"), true);

@@ -4,7 +4,7 @@ $user = "root";
 $pass = "";
 $bd = "arquitetura_pi";
 $bd_existe = false;
-$caminho_bd = "../db/arquitetura_pi.sql";
+$caminho_bd = __DIR__ . "/arquitetura_pi.sql";
 
 // Conexão com servidor sem usar nenhum banco
 $conn = new mysqli($host, $user, $pass);
