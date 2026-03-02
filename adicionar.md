@@ -1,3 +1,0 @@
-- Padronização de escutas de eventos no JavaScript
-- Padronizar caminhos JS -> JS
-- Padronizar caminhos PHP -> PHP
